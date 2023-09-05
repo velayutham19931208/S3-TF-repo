@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-own-bucket"
+  bucket = "my-own-bucket_00811990"
   tags = {
       Name = "kc3423msdk"
   }
